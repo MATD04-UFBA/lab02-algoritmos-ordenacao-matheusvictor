@@ -4,7 +4,7 @@ using namespace std;
 
 /* *********************************************** */
 /* *********************************************** */
-vector<int> ordenacaoSelecao(std::vector<int> &v) {
+vector<int> ordenacaoSelecao(std::vector<int> v) {
 	
 	int menorElemento, aux = 0;
 
@@ -29,7 +29,7 @@ vector<int> ordenacaoSelecao(std::vector<int> &v) {
 
 /* *********************************************** */
 /* *********************************************** */
-vector<int> ordenacaoInsercao (std::vector<int> &v) {
+vector<int> ordenacaoInsercao (std::vector<int> v) {
 
     int elementoAtualVetor, posicaoAnteriorVetor;
     
@@ -53,7 +53,7 @@ vector<int> ordenacaoInsercao (std::vector<int> &v) {
 
 /* *********************************************** */
 /* *********************************************** */
-vector<int> ordenacaoBolha (std::vector<int> &v) {
+vector<int> ordenacaoBolha (std::vector<int> v) {
 
     int maiorElemento, aux; 
 
