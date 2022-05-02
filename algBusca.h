@@ -3,10 +3,10 @@
 using namespace std;
 
 // ********************************************************************
-bool buscaSequencial(std::vector<int> v, int chave);
+int buscaSequencial(std::vector<int> v, int chave);
 
 // ********************************************************************
-bool buscaSequencialOrd(std::vector<int> v, int chave);
+int buscaSequencialOrd(std::vector<int> v, int chave);
 
 // ********************************************************************
 bool buscaBinaria(std::vector<int> v, int chave);
