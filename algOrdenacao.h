@@ -1,11 +1,13 @@
 #include <vector>
 
 
-/* *********************************************** */
-void ordenacaoSelecao(std::vector<int> v);
+using namespace std;
 
 /* *********************************************** */
-void ordenacaoInsercao (std::vector<int> v);
+vector<int> ordenacaoSelecao(vector<int> &v);
 
 /* *********************************************** */
-void ordenacaoBolha (std::vector<int> v);
+vector<int> ordenacaoInsercao (std::vector<int> &v);
+
+/* *********************************************** */
+vector<int> ordenacaoBolha (std::vector<int> &v);
