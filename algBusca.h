@@ -1,5 +1,6 @@
 #include <vector>
 
+using namespace std;
 
 // ********************************************************************
 bool buscaSequencial(std::vector<int> v, int chave);

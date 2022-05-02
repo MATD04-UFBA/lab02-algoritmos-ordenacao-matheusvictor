@@ -7,6 +7,13 @@
 // Caso Médio  : O(n/2=0.5n) -> O(n)
 // ********************************************************************
 bool buscaSequencial(std::vector<int> v, int chave) {
+      
+      for (int i=0; i < v.size(); i++) {
+            if (chave == v[i]) {
+                  return true;
+                  break;
+            }
+      }
 
       return false;
 }
